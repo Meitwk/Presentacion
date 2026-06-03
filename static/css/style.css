@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(67, 90, 45);
+    padding: 20px;
+    margin: 20px;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(0, 221, 18);
+}
+/* 172.16.50.174:5500  le pondremos transicion?*/
